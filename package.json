@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/achengit/sharp-demo/issues"
   },
-  "homepage": "https://github.com/achengit/sharp-demo#readme"
+  "homepage": "https://github.com/achengit/sharp-demo#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
