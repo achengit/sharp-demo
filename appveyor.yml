@@ -7,7 +7,7 @@ install:
   - 7z a api.zip * -x!test -x!db -x!.git -xr!.* -x!README.md -x!nodemon.json -x!appveyor.yml | FIND /V "ing  "
   
 artifacts:
-  - path: myapp.zip
+  - path: api.zip
     name: MyApp  
 
 deploy:
