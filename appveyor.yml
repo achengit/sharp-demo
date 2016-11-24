@@ -13,3 +13,4 @@ deploy:
   username: aaron
   password: th123456
   folder: site/wwwroot
+  artifact: /.*   
