@@ -5,3 +5,11 @@ install:
   - npm i --loglevel=warn
   - npm prune --production
   - 7z a api.zip * -x!test -x!db -x!.git -xr!.* -x!README.md -x!nodemon.json -x!appveyor.yml | FIND /V "ing  "
+
+deploy:
+  provider: FTP
+  protocol: ftp
+  host: ftp://waws-prod-hk1-021.ftp.azurewebsites.windows.net
+  username: aaron
+  password: th123456
+  folder: site/wwwroot
