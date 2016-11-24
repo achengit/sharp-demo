@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/achengit/sharp-demo#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "sharp": "^0.16.2"
   }
 }
